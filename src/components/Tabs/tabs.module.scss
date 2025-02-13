@@ -1,0 +1,63 @@
+.reactTabs {
+  
+  .tabs__container {
+    margin-top: 60px;
+    height: 50dvh;
+    width: 100%;
+    max-width: 1080px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px 0px black;
+    // display: flex;
+    padding: 15px 30px;
+
+    .tabsWrapper {
+
+      .defTabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // width: 100%;
+
+        .tabBtn {
+          display: block;
+          border: 2px solid var(--clrblack3);
+          background-color: var(--clrblack);
+          width: 100%;
+          padding: 10px 20px;
+          color: var(--clrwhite);
+          font-weight: 700;
+          cursor: pointer;
+          transition: 0.1s;
+          border-bottom: none;
+          border-radius: 5px;
+
+          &.activeTabBtn {
+            border: 2px solid var(--clrgreen2);
+            background-color: var(--clrgreen2);
+            color: var(--clrblack);
+            border-bottom: none;
+          }
+        }
+
+        
+      }
+
+      .tabsContent {
+        // width: 100%;
+        background-color: var(--clrred);
+        max-width: inherit;
+
+        .tabHome {
+
+          .tabHomeTitle {
+
+          }
+
+          .tabHomeText {
+
+          }
+        }
+      }
+    }
+  }
+}

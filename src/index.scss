@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(assets/fonts/Rubik-VariableFont_wght.ttf) format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  // color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrwhite: #f5f6fa;
+  --clryellow: #f1c40f;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--clrblack);
+  color: var(--clrwhite);
+  font-family: "Rubik";
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
