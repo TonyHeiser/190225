@@ -66,7 +66,7 @@ export default function TwoOfThree2() {
         </div>
 
         <div className={`${styles.checkbox__container} ${styles.fast__checkboxContainer}`}>
-          <label htmlFor="quality" className={styles.labelName}>Fast</label>
+          <label htmlFor="fast" className={styles.labelName}>Fast</label>
           <label htmlFor="fast" className={`${styles.checkbox__label} ${styles.fastLabel}`}>
             <input 
               type="checkbox" 
@@ -81,7 +81,7 @@ export default function TwoOfThree2() {
         </div>
 
         <div className={`${styles.checkbox__container} ${styles.cheap__checkboxContainer}`}>
-          <label htmlFor="quality" className={styles.labelName}>Cheap</label>
+          <label htmlFor="cheap" className={styles.labelName}>Cheap</label>
           <label htmlFor="cheap" className={`${styles.checkbox__label} ${styles.cheapLabel}`}>
             <input 
               type="checkbox" 
